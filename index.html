@@ -31,8 +31,8 @@
 
 </head>
 <body>
-    <main class="max-w-xl mx-auto px-4 lg:px-16">
-        <header class="flex justify-between pt-10 mb-20">
+    <main class="max-w-screen-xl mx-auto px-4 lg:px-16">
+        <header class=" lg:flex justify-between pt-10 mb-20">
             <!-- text content -->
             <div>
                 <h1 class="text-3xl md:text-2xl">It's good 
@@ -41,11 +41,11 @@
                     <button class="bg-gradient-to-r from-orange-500 to-red-500 px-3 rounded-lg my-3 mt-4 text-white font-bold"> Explore More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></button>
                 </div>
             <!-- image content -->
-             <div class="ml-5 relative">
-                <img class="w-full" src="images/banner.png" alt="">
-                <div class="absolute flex bg-white-500 shadow-lg px-0.05 py-0.05
-                 rounded-lg items-center top-28">
-                   <div><i class="fa-solid fa-star text-2xl text-orange-500"></i></div> 
+             <div class="relative">
+                <img class="w-3/4" src="images/banner.png" alt="">
+                <div class="absolute flex bg-white-500 shadow-lg px-2 py-2
+                 rounded-lg mx-3/4 lg:top-3/4">
+                   <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div> 
 
                    <div> 
                     <h3 class="font-bold">5.00</h1>
@@ -57,57 +57,96 @@
         </header>
 
 <!-- featured products section -->
-        <section class="py-0.5">
+        <section class="py-5">
           <div class="text-center">
             <h3 class="font-bold mb-2">Our Featured Products</h3>
             <p class="text-gray-500 text-base font-thin">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
           </div>
-          <div class="grid grid-cols-4 gap-3 mx-3">
+          <div class="grid grid-cols-1 mt-5 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-3">
+             
             
-            
-            <div class="rounded-lg drop-shadow-3xl bg-gray-100">
+            <div class="rounded-lg drop-shadow-3xl bg-gray-100 mx-auto">
               <img class=" text-5xl mx-auto py-2" src="images/tea-1.png" alt="">
               <div class="text-center p-2">
-                <h3 class="text-bold font-serif uppercase">milk tea</h3>
-                <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+                <h3 class="text-bold font-serif text-xl">Milk Tea</h3>
+                <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet.</p>
               </div>
               
             </div>
 
-            <div class="rounded-lg drop-shadow-3xl bg-gray-100">
+            <div class="rounded-lg drop-shadow-3xl bg-gray-100 mx-auto">
+              <img class=" text-5xl mx-auto py-2" src="images/tea-2.png" alt="">
+              <div class="text-center p-2">
+                <h3 class="text-bold font-serif text-xl">Milk Tea</h3>
+                <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet.</p>
+              </div>
+              
+            </div>
+
+            <div class="rounded-lg drop-shadow-3xl bg-gray-100 mx-auto">
+              <img class=" text-5xl mx-auto py-2" src="images/tea-3.png" alt="">
+              <div class="text-center p-2">
+                <h3 class="text-bold font-serif text-xl">Milk Tea</h3>
+                <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet.</p>
+              </div>
+              
+            </div>
+
+            <div class="rounded-lg drop-shadow-3xl bg-gray-100 mx-auto">
               <img class=" text-5xl mx-auto py-2" src="images/tea-4.png" alt="">
               <div class="text-center p-2">
-                <h3 class="text-bold font-serif uppercase">black tea</h3>
-                <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+                <h3 class="text-bold font-serif text-xl">Milk Tea</h3>
+                <p class="text-gray-500 text-sm">Lorem ipsum dolor sit amet.</p>
               </div>
               
             </div>
 
-            <div class="rounded-lg drop-shadow-3xl bg-gray-100">
-              <img class=" mx-auto py-2" src="images/tea-2.png" alt="">
-              <div class="text-center p-2">
-                <h3 class="text-bold font-serif uppercase">milk tea</h3>
-                <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
+
+           </div>
+          
+          </section>
+
+
+          <section class="mt-10 mb-10">
+        
+
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+            <!-- image section -->
+            <div class=" grid grid-cols-2 grid-rows-3 gap-4 w-5/6">
+
+              <div class="  bg-gradient-to-r from-red-100 to-red-50 rounded-lg "> </div>
+              <div class=" bg-gradient-to-r from-red-100 to-red-50 rounded-lg row-span-2">
+                <img class="mx-auto " src="images/fresh-1.png" alt="">
               </div>
+
+              <div class=" bg-gradient-to-r from-red-100 to-red-50 rounded-lg row-span-2">
+                <img class="mx-auto " src="images/fresh-2.png" alt="">
+              </div>
+
+              <div class="  bg-gradient-to-r from-red-100 to-red-50 rounded-lg "> </div>
+              
               
             </div>
-
-            <div class="rounded-lg drop-shadow-3xl bg-gray-100">
-              <img class=" mx-auto py-2" src="images/tea-3.png" alt="">
-              <div class="text-center">
-                <h3 class="text-bold font-serif uppercase">milk tea</h3>
-                <p class="text-gray-500">Lorem ipsum dolor sit amet.</p>
-              </div>
-              
-            </div>
-
             
+            <!-- text section -->
+            <div class="font-sans">
+              <h1 class="text-3xl bold">Lorem, ipsum.</h1>
 
+              <p class="text-gray-500 text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae dolor aliquam quidem odio enim doloremque vel corrupti quam, repellat aspernatur quaerat? Illo atque reiciendis alias fugiat inventore, libero laboriosam repellat itaque sapiente, doloremque quos perferendis exercitationem impedit minus quam culpa. Ullam, est! Facere ea sit delectus commodi quod est similique?
+              </p>
+              <br>
+              <h3 class="text-xl bold">Lorem, ipsum.</h3>
+              <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, amet in? Doloribus, aliquid hic! Doloribus voluptas ipsam natus aperiam mollitia.</p>
+              <br>
+              <h3 class="text-xl bold">Lorem, ipsum.</h3>
+              <p class="text-gray-500">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quo commodi nulla veniam quod dicta minima nam fugit temporibus magnam.</p>
+            </div>
 
 
           </div>
+          </section>
 
-        </section>
+
     </main>
     
 </body>
